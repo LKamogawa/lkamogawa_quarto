@@ -1,21 +1,93 @@
 project:
   type: website
+  output-dir: _site
+  preview:
+    port: 4815
 
 website:
-  title: "personal_site"
+  title: Leonardo Kamogawa's website
+  description: Sharing knowledge to floricsome individuals
+  site-url: https://lkamogawa.com
+  image: resources/img/opengraph.png
+  favicon: resources/img/kamogawa_hanko.png
+
+  repo-url: https://github.com/LKamogawa/lkamogawa.com
+  repo-link-target: _blank
+  repo-branch: published
+  repo-actions: source
+  open-graph: true
+  twitter-card: true
+
   navbar:
+    title: Leonardo Kamogawa
+    logo: resources/img/kamogawa_hanko.png
+    background: rgb(32, 94, 166)
+
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - about/about.qmd
+      - posts/index.qmd
+
+    right:
+      - icon: linkedin
+        href: https://linkedin.com/in/leonardo-kamogawa/
+        aria-label: LinkedIn profile
+      - icon: github
+        href: https://github.com/LKamogawa
+        aria-label: GitHub profile
+      - icon: envelope-fill
+        href: mailto:leonardo.kamogawa@hotmail.com
+        aria-label: Email for contact
+      - icon: rss-fill
+        href: index.xml
+        target: _blank
+        aria-label: LKamogawa's RSS Feed
+      - icon: journals
+        href: https://hyperpyrus.lkamogawa.com
+        target: _blank
+        aria-label: My Digital Garden
+
+  page-footer: 
+    border: false
+
+    left: Website made with [![Quarto](https://quarto.org/quarto.png){height=1em}](https://quarto.org) v.{{< version >}}
+    
+    center: >
+      <a href="https://lkamogawa.com">lkamogawa.com</a> © 2026 by 
+      <a href="https://lkamogawa.com">Leonardo Kamogawa</a> is licensed under 
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+      <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+      <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+      <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+    
+    right:
+      - text: License
+        href: license/license.qmd
+      - icon: linkedin
+        href: https://linkedin.com/in/leonardo-kamogawa/
+        aria-label: LinkedIn profile
+      - icon: github
+        href: https://github.com/LKamogawa
+        aria-label: GitHub profile
+      - icon: envelope-fill
+        href: mailto:leonardo.kamogawa@hotmail.com
+        aria-label: Email for contact
+
+  # comments: 
+  #   giscus:
+  #     repo: LKamogawa/lkamogawa.com
+  #     mapping: pathname
+  #     reactions-enabled: true
+  #     loading: lazy
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
-    css: styles.css
+      light: cosmo
+      dark: litera
+    css: resources/css/styles.css
     toc: true
 
-
+execute:
+  freeze: auto
+  warning: false
 
