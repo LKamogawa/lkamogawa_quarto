@@ -1,0 +1,8 @@
+---
+title: Licenses
+comments: false
+---
+
+# Licenses used
+
+{{< lipsum 2 >}}
