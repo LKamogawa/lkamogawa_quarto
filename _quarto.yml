@@ -9,7 +9,7 @@ website:
   description: Sharing knowledge to floricsome individuals
   site-url: https://lkamogawa.com
   image: resources/img/opengraph.png
-  favicon: resources/img/kamogawa_hanko.png
+  favicon: resources/img/kamogawa_hanko.svg
 
   repo-url: https://github.com/LKamogawa/lkamogawa.com
   repo-link-target: _blank
@@ -83,8 +83,10 @@ format:
   html:
     theme:
       light: cosmo
-      dark: litera
-    css: resources/css/styles.css
+      dark: cosmo
+    css: 
+      - resources/styles/fonts.css
+      - resources/styles/styles.css
     toc: true
 
 execute:
