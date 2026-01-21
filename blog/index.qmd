@@ -1,0 +1,8 @@
+---
+title: "Blog Posts"
+comments: false
+
+draft: false
+---
+
+{{< lipsum 6 >}}

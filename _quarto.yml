@@ -6,12 +6,12 @@ project:
 
 website:
   title: Leonardo Kamogawa's website
-  description: Sharing knowledge to floricsome individuals
+  description: Sharing knowledge with floricsome individuals
   site-url: https://lkamogawa.com
   image: resources/img/opengraph.png
   favicon: resources/img/kamogawa_hanko.svg
 
-  repo-url: https://github.com/LKamogawa/lkamogawa.com
+  repo-url: https://github.com/LKamogawa/lkamogawa_quarto
   repo-link-target: _blank
   repo-branch: published
   repo-actions: source
@@ -23,30 +23,15 @@ website:
     logo: resources/img/kamogawa_hanko.png
     background: rgb(32, 94, 166)
 
-    left:
-      - about/about.qmd
-      - posts/index.qmd
-
     right:
-      - icon: linkedin
-        href: https://linkedin.com/in/leonardo-kamogawa/
-        aria-label: LinkedIn profile
-      - icon: github
-        href: https://github.com/LKamogawa
-        aria-label: GitHub profile
-      - icon: envelope-fill
-        href: mailto:leonardo.kamogawa@hotmail.com
-        aria-label: Email for contact
-      - icon: rss-fill
-        href: index.xml
-        target: _blank
-        aria-label: LKamogawa's RSS Feed
-      - icon: journals
-        href: https://hyperpyrus.lkamogawa.com
-        target: _blank
-        aria-label: My Digital Garden
+      - text: About
+        href: about/about.qmd
+      - text: Blog
+        href: blog/index.qmd
+      - text: Projects
+        href: projects/index.qmd
 
-  page-footer: 
+  page-footer:
     border: false
 
     left: Website made with [![Quarto](https://quarto.org/quarto.png){height=1em}](https://quarto.org) v.{{< version >}}
@@ -64,17 +49,27 @@ website:
         href: license/license.qmd
       - icon: linkedin
         href: https://linkedin.com/in/leonardo-kamogawa/
+        target: _blank
         aria-label: LinkedIn profile
       - icon: github
         href: https://github.com/LKamogawa
+        target: _blank
         aria-label: GitHub profile
       - icon: envelope-fill
         href: mailto:leonardo.kamogawa@hotmail.com
         aria-label: Email for contact
+      - icon: rss-fill
+        href: index.xml
+        target: _blank
+        aria-label: LKamogawa's RSS Feed
+      - icon: journals
+        href: https://hyperpyrus.lkamogawa.com
+        target: _blank
+        aria-label: My Digital Garden
 
   # comments: 
   #   giscus:
-  #     repo: LKamogawa/lkamogawa.com
+  #     repo: LKamogawa/lkamogawa_quarto
   #     mapping: pathname
   #     reactions-enabled: true
   #     loading: lazy
