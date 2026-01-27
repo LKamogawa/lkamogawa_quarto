@@ -5,10 +5,7 @@
 .business-card {
   aspect-ratio: 1.65 / 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.nav-footer {
-  background-color: rgb(255, 252, 240);
+  margin-bottom: 5em;
 }
 
 .bg-link {
@@ -18,16 +15,40 @@
   right: 1rem;
   font-size: 1em;
   text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px;
 }
 
-a:hover {
-  color: rgba(230, 0, 51) !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+.quarto-grid-item {
+  color: black;
+  border-radius: 23em;
+  background-color: rgb(255, 252, 240);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.quarto-grid-item:hover {
+  color: rgba(230, 0, 51);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 23em;
+  background-color: rgb(230, 228, 217);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+  font-family: CooperHewitt;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.23em;
+}
+
+/* 
+#ffffff  temp
+#0f766e  outer rgb(15, 118, 110)
+#06b6d4  inner rgb(6, 182, 212)
+*/
 body {
   background: 
-  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'%3E%3Cdefs%3E%3CradialGradient id='grad' cx='50%25' cy='50%25' r='50%25' fx='50%25' fy='50%25'%3E%3Cstop offset='9%25' stop-color='%230f766e' /%3E%3Cstop offset='10%25' stop-color='%2306b6d4' /%3E%3Cstop offset='19%25' stop-color='%2306b6d4' /%3E%3Cstop offset='20%25' stop-color='%230f766e' /%3E%3Cstop offset='29%25' stop-color='%230f766e' /%3E%3Cstop offset='30%25' stop-color='%2306b6d4' /%3E%3Cstop offset='39%25' stop-color='%2306b6d4' /%3E%3Cstop offset='40%25' stop-color='%230f766e' /%3E%3Cstop offset='49%25' stop-color='%230f766e' /%3E%3Cstop offset='50%25' stop-color='%2306b6d4' /%3E%3Cstop offset='59%25' stop-color='%2306b6d4' /%3E%3Cstop offset='60%25' stop-color='%230f766e' /%3E%3Cstop offset='69%25' stop-color='%230f766e' /%3E%3Cstop offset='70%25' stop-color='%2306b6d4' /%3E%3Cstop offset='79%25' stop-color='%2306b6d4' /%3E%3Cstop offset='80%25' stop-color='%230f766e' /%3E%3Cstop offset='89%25' stop-color='%230f766e' /%3E%3Cstop offset='90%25' stop-color='%2306b6d4' /%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle fill='url(%23grad)' cy='27' r='57' /%3E%3Ccircle fill='url(%23grad)' cx='100' cy='27' r='57' /%3E%3Ccircle fill='url(%23grad)' cx='50' cy='57' r='57' /%3E%3Ccircle fill='url(%23grad)' cy='87' r='57' /%3E%3Ccircle fill='url(%23grad)' cx='100' cy='87' r='57' /%3E%3C/svg%3E")
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'%3E%3Cdefs%3E%3CradialGradient id='grad' cx='50%25' cy='50%25' r='50%25' fx='50%25' fy='50%25'%3E%3Cstop offset='9%25' stop-color='%2306b6d4' /%3E%3Cstop offset='10%25' stop-color='%230f766e' /%3E%3Cstop offset='19%25' stop-color='%230f766e' /%3E%3Cstop offset='20%25' stop-color='%2306b6d4' /%3E%3Cstop offset='29%25' stop-color='%2306b6d4' /%3E%3Cstop offset='30%25' stop-color='%230f766e' /%3E%3Cstop offset='39%25' stop-color='%230f766e' /%3E%3Cstop offset='40%25' stop-color='%2306b6d4' /%3E%3Cstop offset='49%25' stop-color='%2306b6d4' /%3E%3Cstop offset='50%25' stop-color='%230f766e' /%3E%3Cstop offset='59%25' stop-color='%230f766e' /%3E%3Cstop offset='60%25' stop-color='%2306b6d4' /%3E%3Cstop offset='69%25' stop-color='%2306b6d4' /%3E%3Cstop offset='70%25' stop-color='%230f766e' /%3E%3Cstop offset='79%25' stop-color='%230f766e' /%3E%3Cstop offset='80%25' stop-color='%2306b6d4' /%3E%3Cstop offset='89%25' stop-color='%2306b6d4' /%3E%3Cstop offset='90%25' stop-color='%230f766e' /%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle fill='url(%23grad)' cy='27' r='57' /%3E%3Ccircle fill='url(%23grad)' cx='100' cy='27' r='57' /%3E%3Ccircle fill='url(%23grad)' cx='50' cy='57' r='57' /%3E%3Ccircle fill='url(%23grad)' cy='87' r='57' /%3E%3Ccircle fill='url(%23grad)' cx='100' cy='87' r='57' /%3E%3C/svg%3E")
     center center / 5rem auto;
 }
 

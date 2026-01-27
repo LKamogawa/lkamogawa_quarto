@@ -6,7 +6,7 @@ project:
 
 website:
   title: Leonardo Kamogawa's website
-  description: Sharing knowledge with floricsome individuals
+  description: Sharing knowledge with frolicsome minds
   site-url: https://lkamogawa.com
   image: resources/img/opengraph.png
   favicon: resources/img/kamogawa_hanko.svg
@@ -21,7 +21,6 @@ website:
   navbar:
     title: Leonardo Kamogawa
     logo: resources/img/kamogawa_hanko.png
-    background: rgb(32, 94, 166)
 
     right:
       - text: About
@@ -76,13 +75,13 @@ website:
 
 format:
   html:
-    theme:
-      light: cosmo
-      dark: cosmo
+    theme: [cosmo, resources/styles/styles.scss]
     css: 
       - resources/styles/fonts.css
-      - resources/styles/styles.css
     toc: true
+    toc-location: left
+    smooth-scroll: true
+    code-annotations: select
 
 execute:
   freeze: auto

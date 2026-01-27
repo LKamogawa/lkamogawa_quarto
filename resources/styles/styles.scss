@@ -1,0 +1,82 @@
+/*-- scss:defaults --*/
+
+// Colors
+$red: rgb(230, 0, 51) !default;
+$outer: rgb(15, 118, 110);
+$inner: rgb(6, 182, 212);
+$paper: rgb(255, 252, 240);
+$text: rgb(16, 15, 15);
+
+// Fonts
+$font-family-sans-serif: "CooperHewitt" !default;
+$font-family-serif: "Charter" !default;
+$font-family-monospace: "mononoki" !default;
+$font-size-base: 1.1rem !default;
+
+// Page colors
+$navbar-bg: $paper;
+$footer-bg: $paper;
+$input-bg: $paper;
+$popover-bg: lighten($paper, 55%);
+
+$body-bg: $paper;
+$body-color: $text;
+
+// Links
+$link-color: $red;
+$link-hover-color: darken($link-color, 15%);
+$link-decoration: none;
+$link-hover-decoration: underline;
+
+// Code
+$code-bg: lighten($inner, 55%);
+$code-color: darken($outer, 10%);
+$code-block-bg: $code-bg;
+$code-block-border-left: $outer;
+$code-block-border-left-size: 4px;
+$code-annotation-higlight-bg: lighten($red, 50%);
+$code-annotation-higlight-color: $code-block-border-left;
+$btn-code-copy-color-active: $red;
+
+/*-- scss:rules --*/
+h1.title {
+  font-family: $font-family-sans-serif;
+  font-size: 2em;
+	color: $red;
+}
+
+p.subtitle.lead {
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+a.nav-link:hover,
+a.navbar-brand:hover {
+  color: rgb(230, 0, 51);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+a:hover {
+  color: rgb(230, 0, 51) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+a.external::after {
+  background-position: unset;
+}
+
+.navbar-title {
+  font-size: 120%;
+}
+
+.navbar-logo {
+  max-height: 36px;
+}
+
+.navbar-brand-logo {
+  padding-top: 0px;
+}
+
+.tippy-box {
+  background-color: $popover-bg !important;
+}

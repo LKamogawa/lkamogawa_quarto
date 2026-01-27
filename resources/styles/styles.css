@@ -1,5 +1,0 @@
-/* css styles */
-a.nav-link:hover, a.navbar-brand:hover {
-  color: rgba(230, 0, 51) !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-}

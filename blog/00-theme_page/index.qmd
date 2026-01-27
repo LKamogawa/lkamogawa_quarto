@@ -1,0 +1,76 @@
+---
+title: "Theme page"
+subtitle: "Testing styles"
+description: "It is very japanese."
+comments: false
+---
+
+This page is used to preview how changes in `.yml`, `.css` and `.scss` files affect my blog posts.
+
+This page is meant to be accessed only when you are rendering this [Quarto](https://www.quarto.org){.external} website locally. If you are accessing this page on my [live website](https://www.lkamogawa.com/custom), you can report it as an *issue* in [this link]({{< var github >}}/lkamogawa_quarto/issues)[^1].
+
+[^1]: Otherwise, this can be a secret online page.
+
+## Images
+
+![PNG](../../resources/img/opengraph.png)
+
+![](../../resources/img/kamogawa_hanko.svg)
+
+## Code
+
+### Inline
+
+`R Code below`
+
+### Block
+
+```r
+library(tidyverse)
+library(palmerpenguins)
+penguins |>                                      # <1>
+  mutate(                                        # <2>
+    bill_ratio = bill_depth_mm / bill_length_mm, # <2>
+    bill_area  = bill_depth_mm * bill_length_mm  # <2>
+  )                                              # <2>
+```
+
+1. Take `penguins`, and then,
+2. add new columns for the bill ratio and bill area.
+
+## Callouts
+
+### Note
+
+:::{.callout-note}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+#### Tip
+
+:::{.callout-tip}
+## Title
+
+This callout has a title.
+:::
+
+##### Warning
+
+:::{.callout-warning collapse="true" title="Do not open!"}
+I've warned you!
+:::
+
+###### Caution
+
+:::{.callout-caution}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+### Important
+
+:::{.callout-important}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
