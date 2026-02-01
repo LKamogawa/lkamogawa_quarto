@@ -1,2 +1,5 @@
 draft: true
 draft-mode: unlinked
+
+execute:
+  freeze: true

@@ -81,9 +81,25 @@ format:
     toc: true
     toc-location: left
     smooth-scroll: true
+    code-copy: true
     code-annotations: select
+    code-fold: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    reference-location: margin
+    lightbox: true
+
+    crossref:
+      custom:
+        - kind: float
+          reference-prefix: Video
+          key: vid
+        - kind: float
+          reference-prefix: Quote
+          key: quo
 
 execute:
   freeze: auto
+  echo: false
   warning: false
 
