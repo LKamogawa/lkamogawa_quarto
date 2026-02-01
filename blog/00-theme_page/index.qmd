@@ -29,11 +29,19 @@ This page is meant to be accessed only when you are rendering this [Quarto](http
 ```r
 library(tidyverse)
 library(palmerpenguins)
-penguins |>                                      # <1>
+
+data <-
+  penguins |>                                    # <1>
   mutate(                                        # <2>
     bill_ratio = bill_depth_mm / bill_length_mm, # <2>
     bill_area  = bill_depth_mm * bill_length_mm  # <2>
   )                                              # <2>
+
+which_penguin <- function(data, penguin) {
+  data |> filter(species == penguin)
+}
+
+which_penguin(data, "Adelie")
 ```
 
 1. Take `penguins`, and then,
@@ -74,4 +82,19 @@ Note that there are five types of callouts, including:
 :::{.callout-important}
 Note that there are five types of callouts, including: 
 `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+## Lists
+
+::: {}
+- One;
+- Two;
+- Three!
+:::
+
+::: {}
+
+- [x] This is checked.
+- [ ] This is not.
+
 :::
