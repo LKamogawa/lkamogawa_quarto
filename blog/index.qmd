@@ -1,5 +1,6 @@
 ---
-title: "Blog"
+title: "Blog posts"
+author: ""
 listing:
   id: blog-posts-listing
   contents: "*/*.qmd"
@@ -18,7 +19,9 @@ page-layout: full
 draft: false
 ---
 
-In this blog, I write about 
+Here I write *professionally* about data, programming, technology and job related subjects.
+
+If you want to know more about *The Life and Opinions of Leonardo Kamogawa, Gentleman*, take a look at **my personal digital garden**, [Hyperpyrus](https://hyperpyrus.lkamogawa.com).
 
 ::: {#blog-posts-listing}
 :::
