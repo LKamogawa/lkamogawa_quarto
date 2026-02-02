@@ -1,6 +1,9 @@
 ---
 title: "Theme page"
 subtitle: "Testing styles"
+description: Should I use the description field?
+date: 2026-02-02
+categories: [Theme, Quarto, CSS]
 comments: false
 ---
 

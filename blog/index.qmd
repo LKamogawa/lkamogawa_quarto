@@ -1,49 +1,24 @@
 ---
-title: "Blog Posts"
-comments: false
-
+title: "Blog"
+listing:
+  id: blog-posts-listing
+  contents: "*/*.qmd"
+  exclude: 
+    title: "Theme page"
+  type: default
+  sort: "date desc"
+  fields: [image, date, title, subtitle, categories, reading-time]  
+  sort-ui: [title, date, categories]
+  filter-ui: true
+  page-size: 10
+  categories: true
+  feed:  
+    categories: [R]
+page-layout: full
 draft: false
 ---
----
-title: "About"
-comments: false
----
 
-# About this site
+In this blog, I write about 
 
-[Link Test](https://www.quarto.org){.external}
-
-[Blog](../blog/index.qmd)
-
-[Internal](https://www.lkamogawa.com/custom)
-
-Footnote[^1]
-
-{{< lipsum 1 >}}
-
-![](../resources/img/opengraph.png)
-
-![](../resources/img/kamogawa_hanko.svg)
-
-## dsadsa
-
-{{< lipsum 1 >}}
-
-### dsadas
-
-`R Code below`
-
-```r
-library(tidyverse)
-library(palmerpenguins)
-penguins |>                                      # <1>
-  mutate(                                        # <2>
-    bill_ratio = bill_depth_mm / bill_length_mm, # <2>
-    bill_area  = bill_depth_mm * bill_length_mm  # <2>
-  )                                              # <2>
-```
-
-1. Take `penguins`, and then,
-2. add new columns for the bill ratio and bill area.
-
-[^1]: Here is the footnote.
+::: {#blog-posts-listing}
+:::

@@ -27,8 +27,16 @@ website:
         href: about/about.qmd
       - text: Blog
         href: blog/index.qmd
-      - text: Projects
-        href: projects/index.qmd
+      - icon: rss-fill
+        menu:
+          - text: RSS - All blog posts
+            href: /blog/index.xml
+            target: _blank
+            aria-label: LKamogawa's All Posts RSS Feed
+          - text: RSS - R blog posts
+            href: /blog/index-r.xml
+            target: _blank
+            aria-label: LKamogawa's R Posts RSS Feed
 
   page-footer:
     border: false
@@ -57,21 +65,10 @@ website:
       - icon: envelope-fill
         href: mailto:leonardo.kamogawa@hotmail.com
         aria-label: Email for contact
-      - icon: rss-fill
-        href: index.xml
-        target: _blank
-        aria-label: LKamogawa's RSS Feed
       - icon: journals
         href: https://hyperpyrus.lkamogawa.com
         target: _blank
         aria-label: My Digital Garden
-
-  # comments: 
-  #   giscus:
-  #     repo: LKamogawa/lkamogawa_quarto
-  #     mapping: pathname
-  #     reactions-enabled: true
-  #     loading: lazy
 
 format:
   html:

@@ -4,19 +4,19 @@ navbar: false
 repo-actions: false
 comments: false
 listing:
-  - id: home-list
-    contents: 
-      - title: About
-        path: about/about.qmd
-      - title: Blog
-        path: blog/index.qmd
-      - title: Hyperpyrus
-        path: https://hyperpyrus.lkamogawa.com/
-    sort: false
-    type: grid
-    grid-columns: 4
-    categories: false
-    fields: [title]
+  id: home-list
+  contents: 
+    - title: About
+      path: about/about.qmd
+    - title: Blog
+      path: blog/index.qmd
+    - title: Hyperpyrus
+      path: https://hyperpyrus.lkamogawa.com/
+  sort: false
+  type: grid
+  grid-columns: 3
+  categories: false
+  fields: [title]
 format:
   html:
     page-layout: full
