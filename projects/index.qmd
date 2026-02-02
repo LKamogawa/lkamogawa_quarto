@@ -1,8 +1,0 @@
----
-title: "Projects"
-comments: false
-
-draft: false
----
-
-{{< lipsum 6 >}}

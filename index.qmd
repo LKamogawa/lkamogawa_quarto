@@ -10,8 +10,6 @@ listing:
         path: about/about.qmd
       - title: Blog
         path: blog/index.qmd
-      - title: Projects
-        path: projects/index.qmd
       - title: Hyperpyrus
         path: https://hyperpyrus.lkamogawa.com/
     sort: false
@@ -23,6 +21,7 @@ format:
   html:
     page-layout: full
     css: resources/styles/homepage.css
+    lightbox: false
 ---
 
 ::: {.grid}
