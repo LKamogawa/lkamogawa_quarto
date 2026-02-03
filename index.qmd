@@ -2,7 +2,6 @@
 title: ""
 navbar: false
 repo-actions: false
-comments: false
 listing:
   id: home-list
   contents: 
@@ -11,7 +10,7 @@ listing:
     - title: Blog
       path: blog/index.qmd
     - title: Hyperpyrus
-      path: https://hyperpyrus.lkamogawa.com/
+      path: https://hyperpyrus.lkamogawa.com
   sort: false
   type: grid
   grid-columns: 3

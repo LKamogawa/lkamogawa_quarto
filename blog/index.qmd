@@ -1,6 +1,8 @@
 ---
 title: "Blog posts"
 author: ""
+repo-actions: false
+page-layout: full
 listing:
   id: blog-posts-listing
   contents: "*/*.qmd"
@@ -15,13 +17,10 @@ listing:
   categories: true
   feed:  
     categories: [R]
-page-layout: full
 draft: false
 ---
 
 Here I write *professionally* about data, programming, technology and job related subjects.
-
-If you want to know more about *The Life and Opinions of Leonardo Kamogawa, Gentleman*, take a look at **my personal digital garden**, [Hyperpyrus](https://hyperpyrus.lkamogawa.com).
 
 ::: {#blog-posts-listing}
 :::

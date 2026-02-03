@@ -1,6 +1,6 @@
 ---
 title: Licenses
-comments: false
+repo-actions: false
 ---
 
 # Licenses used

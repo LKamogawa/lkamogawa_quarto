@@ -3,4 +3,9 @@ title: ""
 repo-actions: false
 ---
 
-![Page not found](https://http.cat/404.jpg)
+Oh, the page you are trying to access do not exist. Or do not exist anymore.
+
+[Click here](index.qmd) to go back to the Home Page.
+
+
+![](https://http.cat/404.jpg)
