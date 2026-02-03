@@ -51,4 +51,4 @@ If so, check my **digital garden**: [{{< var digital-garden.name >}}]({{< var di
 
 This website has two opposite purposes: to showcase my professional abilities (selfish) and to share useful knowledge to everyone (altruistic). 
 
-Despite the antithesis, I think that these two are good reasons to start a professional blog.
+Despite the antithesis, I think that these two are good reasons to start a professional blog. And I recommend you to start one too!
