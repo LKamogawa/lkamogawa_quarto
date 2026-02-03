@@ -20,7 +20,7 @@ website:
 
   navbar:
     title: Leonardo Kamogawa
-    logo: resources/img/kamogawa_hanko.png
+    logo: resources/img/kamogawa_hanko.svg
 
     right:
       - text: About
@@ -44,8 +44,8 @@ website:
     left: Website made with [![Quarto](https://quarto.org/quarto.png){height=1em}](https://quarto.org) v.{{< version >}}
     
     center: >
-      <a href="https://lkamogawa.com">lkamogawa.com</a> © 2026 by 
-      <a href="https://lkamogawa.com/about.html">Leonardo Kamogawa</a> is licensed under 
+      [lkamogawa.com](/index.qmd) © 2026 by 
+      [Leonardo Kamogawa](/about/about.qmd) is licensed under 
       <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
       <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
       <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
@@ -85,6 +85,7 @@ format:
     tbl-cap-location: top
     reference-location: margin
     lightbox: true
+    link-external-newwindow: true
 
     crossref:
       custom:
