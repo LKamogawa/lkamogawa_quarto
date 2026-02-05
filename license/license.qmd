@@ -1,0 +1,39 @@
+---
+title: Licenses
+repo-actions: false
+toc: false
+page-layout: full
+comments: false
+---
+
+Except where otherwise noted, content on this site is licensed under a 
+<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a>.
+<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+<img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+
+### Static Site Generator
+
+This website was made with [Quarto](https://quarto.org) v.{{< version >}}. Quarto v.1.4 (and later) is licensed under the [MIT License](https://github.com/quarto-dev/quarto-cli/blob/main/COPYRIGHT).\
+More information in [Quarto License page](https://quarto.org/license.html).
+
+### Vector and icons
+
+The Hanko stamp used as logo of this website was made with [HankoPress service](https://web-hanko.jp/en). Terms of Use can be found in this [link](https://web-hanko.jp/en/policy).
+
+The pattern on top and bottom of my digital business card was designed using [Pi SVG Vector](https://www.svgrepo.com/svg/368123/pi) by [Stephenhutchings](https://github.com/stephenhutchings/typicons.font?ref=svgrepo.com) in PD License via [SVG Repo](https://www.svgrepo.com/).
+
+The background pattern used in the Home Page was made by [Joost van der Schee](https://www.usecue.com/blog/a-changed-pattern/).
+
+### Fonts
+
+The serif font family used is [Charter](https://practicaltypography.com/charter.html). Here is the [link](https://practicaltypography.com/charter.html) to the page where the file and the original license can be accessed due to [Matthew Butterick](https://matthewbutterick.com/) efforts.
+
+The sans-serif font family used is [CooperHewitt](https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/) by [Cooper Hewitt Smithsonian Design Museum](https://www.cooperhewitt.org/), and is licensed under the [SIL Open Font License](https://github.com/cooperhewitt/cooperhewitt-typeface/blob/master/files/-CooperHewitt-OFL-201406.txt).
+
+The monospace font family used is [mononoki](https://madmalik.github.io/mononoki/) by [Matthias Tellen](https://github.com/madmalik), and is licensed under the [SIL Open Font License](https://github.com/madmalik/mononoki/blob/main/LICENSE).
+
+### Color Palette
+
+The color palette used in this website was based on [Flexoki](https://stephango.com/flexoki) color scheme.\
+Flexoki was made by [Steph Ango](https://stephango.com/), and is licensed under the [MIT License](https://github.com/kepano/flexoki/blob/main/LICENSE).

@@ -1,0 +1,27 @@
+---
+title: "Blog posts"
+author: ""
+repo-actions: false
+page-layout: full
+comments: false
+listing:
+  id: blog-posts-listing
+  contents: "*/*.qmd"
+  exclude: 
+    title: "Theme page"
+  type: default
+  sort: "date desc"
+  fields: [image, date, title, subtitle, categories, reading-time]  
+  sort-ui: [title, date, categories]
+  filter-ui: true
+  page-size: 10
+  categories: true
+  feed:  
+    categories: [R]
+draft: false
+---
+
+Here I write *professionally* about data, programming, technology and job related subjects.
+
+::: {#blog-posts-listing}
+:::

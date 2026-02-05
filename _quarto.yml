@@ -1,21 +1,111 @@
 project:
   type: website
+  output-dir: _site
+  preview:
+    port: 4815
 
 website:
-  title: "personal_site"
+  title: Leonardo Kamogawa's website
+  description: Sharing knowledge with frolicsome minds
+  site-url: https://lkamogawa.com
+  image: resources/img/opengraph.png
+  favicon: resources/img/kamogawa_hanko.svg
+
+  repo-url: https://github.com/LKamogawa/lkamogawa_quarto
+  repo-link-target: _blank
+  repo-branch: published
+  repo-actions: source
+  open-graph: true
+  twitter-card: true
+
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    title: Leonardo Kamogawa
+    logo: resources/img/kamogawa_hanko.svg
+
+    right:
+      - text: About
+        href: about/about.qmd
+      - text: Blog
+        href: blog/index.qmd
+      - icon: rss-fill
+        menu:
+          - text: RSS - All blog posts
+            href: /blog/index.xml
+            target: _blank
+            aria-label: LKamogawa's All Posts RSS Feed
+          - text: RSS - R blog posts
+            href: /blog/index-r.xml
+            target: _blank
+            aria-label: LKamogawa's R Posts RSS Feed
+
+  page-footer:
+    border: false
+
+    left: Website made with [![Quarto](https://quarto.org/quarto.png){height=1em}](https://quarto.org) v.{{< version >}}
+    
+    center: >
+      [lkamogawa.com](/index.qmd) © 2026 by 
+      [Leonardo Kamogawa](/about/about.qmd) is licensed under 
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+      <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+      <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+      <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+    
+    right:
+      - text: License
+        href: license/license.qmd
+      - icon: linkedin
+        href: https://linkedin.com/in/leonardo-kamogawa/
+        target: _blank
+        aria-label: LinkedIn profile
+      - icon: github
+        href: https://github.com/LKamogawa
+        target: _blank
+        aria-label: GitHub profile
+      - icon: envelope-fill
+        href: mailto:leonardo.kamogawa@hotmail.com
+        aria-label: Email for contact
+      - icon: journals
+        href: https://hyperpyrus.lkamogawa.com
+        target: _blank
+        aria-label: My Digital Garden
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: [cosmo, resources/styles/styles.scss]
+    css: 
+      - resources/styles/fonts.css
     toc: true
+    toc-location: left
+    smooth-scroll: true
+    code-copy: true
+    code-annotations: select
+    code-fold: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    reference-location: margin
+    lightbox: true
+    link-external-newwindow: true
 
+    crossref:
+      custom:
+        - kind: float
+          reference-prefix: Video
+          key: vid
+        - kind: float
+          reference-prefix: Quote
+          key: quo
 
+    comments: 
+      giscus:
+        repo: LKamogawa/lkamogawa_quarto
+        category: Giscus
+        mapping: pathname
+        reactions-enabled: true
+        loading: lazy
+
+execute:
+  freeze: auto
+  echo: false
+  warning: false
 

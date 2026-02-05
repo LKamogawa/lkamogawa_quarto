@@ -1,0 +1,55 @@
+---
+title: ""
+toc: false
+repo-actions: false
+comments: false
+format:
+  html:
+    lightbox: false
+about:
+  id: hero-heading
+  template: trestles
+  image: ../resources/img/about-profile.jpg
+  image-width: 320px
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/leonardo-kamogawa
+    - icon: github
+      text: Github
+      href: https://github.com/LKamogawa
+    - icon: envelope-fill
+      text: Email
+      href: mailto:leonardo.kamogawa@hotmail.com
+    - icon: journals
+      text: Hyperpyrus
+      href: https://hyperpyrus.lkamogawa.com
+---
+
+::: {#hero-heading}
+
+I am a Data Scientist with a background in mathematics and senior experience in auditing at a Big Four accounting firm.
+
+Currently, I work as a Data Scientist in the logistics industry. I primarily build interactive R [Shiny](https://shiny.posit.co/) dashboards with real-time geospatial visualizations, develop automated reporting pipelines using [Quarto](https://quarto.org/), and apply machine learning and computer vision models to detect risky driving behaviors.
+
+**Also, I am available for freelance jobs related to R Shiny, data science and machine learning.**
+
+For a more detailed view of my work experience, you can take a look at my [English CV](../resources/cv/leonardo-kamogawa-cv-data-scientist.pdf) or my [Portuguese CV](../resources/cv/leonardo-kamogawa-cv-cientista-de-dados.pdf).
+
+If you have any questions or want to hire my services, [mail me!](mailto:leonardo.kamogawa@hotmail.com) I will be glad to help.
+
+:::
+
+#
+
+## About me
+
+After telling you what I do, maybe you want to know who I am!
+
+If so, check my **digital garden**: [{{< var digital-garden.name >}}]({{< var digital-garden.url >}}). There you will find my notes and thoughts about almost everything and read about *The Life and Opinions of Leonardo Kamogawa, Gentleman*.
+
+## About this website
+
+This website has two purposes: to showcase my professional abilities (selfish) and to share useful knowledge to everyone (altruistic). 
+
+Despite the antithesis, I think that these two reasons are good enough to start a professional blog. And I recommend you to start one too!

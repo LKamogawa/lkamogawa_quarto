@@ -1,0 +1,12 @@
+---
+title: "404 PAGE NOT FOUND"
+repo-actions: false
+comments: false
+---
+
+Oh, the page you are trying to access do not exist. Or do not exist anymore.
+
+[Click here](index.qmd) to go back to the Home Page.
+
+
+![](https://http.cat/404.jpg)

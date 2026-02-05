@@ -1,0 +1,8 @@
+draft: true
+draft-mode: unlinked
+
+author: Leonardo Kamogawa
+date-format: iso
+
+execute:
+  freeze: true
