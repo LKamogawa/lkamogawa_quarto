@@ -2,6 +2,7 @@
 title: ""
 toc: false
 repo-actions: false
+comments: false
 format:
   html:
     lightbox: false

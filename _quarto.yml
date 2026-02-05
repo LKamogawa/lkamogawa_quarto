@@ -96,6 +96,14 @@ format:
           reference-prefix: Quote
           key: quo
 
+    comments: 
+      giscus:
+        repo: LKamogawa/lkamogawa_quarto
+        category: Giscus
+        mapping: pathname
+        reactions-enabled: true
+        loading: lazy
+
 execute:
   freeze: auto
   echo: false

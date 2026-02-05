@@ -2,6 +2,7 @@
 title: ""
 navbar: false
 repo-actions: false
+comments: false
 listing:
   id: home-list
   contents: 

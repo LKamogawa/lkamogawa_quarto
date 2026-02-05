@@ -4,14 +4,5 @@ draft-mode: unlinked
 author: Leonardo Kamogawa
 date-format: iso
 
-# format:
-#   html:
-#     comments: 
-#       giscus:
-#         repo: LKamogawa/lkamogawa_quarto
-#         mapping: pathname
-#         reactions-enabled: true
-#         loading: lazy
-
 execute:
   freeze: true

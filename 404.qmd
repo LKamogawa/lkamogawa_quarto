@@ -1,6 +1,7 @@
 ---
 title: "404 PAGE NOT FOUND"
 repo-actions: false
+comments: false
 ---
 
 Oh, the page you are trying to access do not exist. Or do not exist anymore.

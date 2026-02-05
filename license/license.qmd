@@ -3,6 +3,7 @@ title: Licenses
 repo-actions: false
 toc: false
 page-layout: full
+comments: false
 ---
 
 Except where otherwise noted, content on this site is licensed under a 

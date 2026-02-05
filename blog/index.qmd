@@ -3,6 +3,7 @@ title: "Blog posts"
 author: ""
 repo-actions: false
 page-layout: full
+comments: false
 listing:
   id: blog-posts-listing
   contents: "*/*.qmd"
