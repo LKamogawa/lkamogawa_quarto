@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("../fonts/CooperHewitt/CooperHewitt-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("../fonts/CooperHewitt/CooperHewitt-Semibold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("../fonts/CooperHewitt/CooperHewitt-BookItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("../fonts/CooperHewitt/CooperHewitt-SemiboldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("../fonts/CooperHewitt/CooperHewitt-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("../fonts/CooperHewitt/CooperHewitt-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: url("../fonts/Charter/charter_regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: url("../fonts/Charter/charter_bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: url("../fonts/Charter/charter_italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: url("../fonts/Charter/charter_bold_italic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+    font-family: "mononoki";
+    src: url("../fonts/mononoki/mononoki-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: "mononoki";
+    src: url("../fonts/mononoki/mononoki-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: "mononoki";
+    src: url("../fonts/mononoki/mononoki-Italic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: italic;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: "mononoki";
+    src: url("../fonts/mononoki/mononoki-BoldItalic.woff2") format("woff2");
+    font-weight: bold;
+    font-style: italic;
+    font-display: auto;
+}
+
