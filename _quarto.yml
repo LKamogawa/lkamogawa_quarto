@@ -85,7 +85,6 @@ format:
     tbl-cap-location: top
     reference-location: margin
     lightbox: true
-    link-external-newwindow: true
 
     crossref:
       custom:
